@@ -1,0 +1,38 @@
+name: ServerTweaksandAdditions
+version: 1.0-BETA
+main: me.aeolus.servertweaks.ServerTweaks
+
+api-version: 1.14
+authot: MCAeolus
+depend: [Vault, WorldGuard]
+prefix: ServerTweaks
+
+#
+# PERMISSIONS
+# server.management = any server core-changing commands or abilities
+# server.debugging = any server commands related to testing features and should not normally be accessible
+
+commands:
+  headget:
+    description: debug
+    permission: server.debugging
+  tweakmanager:
+    description: admin
+    permission: server.management
+  givespawner:
+    description: spawner give command
+    permissions: server.admin
+  disablespawner:
+    description: admin
+    permission: server.management
+  worldtp:
+    description: admin
+    permission: server.management
+  enchanter:
+    description: admin
+    permission: server.management
+  discord:
+    description: join our discord server!
+  crateadmin:
+    description: admin
+    permission: server.management
